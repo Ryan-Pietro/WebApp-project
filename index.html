@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Event Booking System">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Booking System - Home</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>EVENT BOOKING SYSTEM</h1>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Welcome to Our Event Booking System</h2>
+
+            <p>
+                Book conferences, weddings, concerts, seminars and corporate events
+                quickly and easily.
+            </p>
+
+            <img src="https://via.placeholder.com/600x250"
+                 alt="Event Banner"
+                 width="600">
+        </section>
+
+        <section>
+            <h2>Upcoming Events</h2>
+
+            <table border="1">
+                <caption>Available Events</caption>
+
+                <tr>
+                    <th>Event</th>
+                    <th>Date</th>
+                    <th>Venue</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Music Festival</td>
+                    <td>15 July 2026</td>
+                    <td>City Arena</td>
+                    <td>KES 2,000</td>
+                </tr>
+
+                <tr>
+                    <td>Tech Conference</td>
+                    <td>30 August 2026</td>
+                    <td>Convention Center</td>
+                    <td>KES 5,000</td>
+                </tr>
+
+                <tr>
+                    <td>Business Summit</td>
+                    <td>20 September 2026</td>
+                    <td>Grand Hotel</td>
+                    <td>KES 3,500</td>
+                </tr>
+
+            </table>
+        </section>
+
+        <section>
+
+            <h2>Book an Event</h2>
+
+            <form>
+
+                <fieldset>
+
+                    <legend>Booking Form</legend>
+
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" required><br><br>
+
+                    <label for="event">Select Event:</label><br>
+
+                    <select id="event">
+                        <option>Music Festival</option>
+                        <option>Tech Conference</option>
+                        <option>Business Summit</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="tickets">Number of Tickets:</label><br>
+                    <input type="number" id="tickets" min="1">
+
+                    <br><br>
+
+                    <input type="submit" value="Book Event">
+                    <input type="reset" value="Clear">
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+        <section>
+
+            <h2>Event Categories</h2>
+
+            <ul>
+                <li>Concerts</li>
+                <li>Seminars</li>
+                <li>Corporate Meetings</li>
+                <li>Weddings</li>
+            </ul>
+
+            <h3>Booking Process</h3>
+
+            <ol>
+                <li>Select an Event</li>
+                <li>Fill the Booking Form</li>
+                <li>Confirm Booking</li>
+                <li>Receive Email Confirmation</li>
+            </ol>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <hr>
+
+        <p>&copy; 2026 Event Booking System. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+</html>
